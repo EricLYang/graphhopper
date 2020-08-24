@@ -157,8 +157,8 @@ module.exports.enableVectorTiles = function () {
     overlays = { "Local MVT": vtLayer };
 }
 
-module.exports.activeLayerName = "Omniscale";
-module.exports.defaultLayer = omniscale;
+module.exports.activeLayerName = "OpenStreetMap";
+module.exports.defaultLayer = osm;
 
 module.exports.getAvailableTileLayers = function () {
     return availableTileLayers;
